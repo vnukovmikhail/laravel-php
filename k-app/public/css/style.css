@@ -1,0 +1,30 @@
+* {
+    font-family: monospace;
+}
+
+body {
+    width: 1150px; margin: auto;
+}
+
+ul {
+    list-style: square; padding: 0 0 0 15px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 100%;
+    overflow: hidden;
+}
+
+/* CLASSES */
+
+.errors {
+    background-color: #FF7777;
+    border-radius: 5px;
+    padding: 5px 30px;
+
+    & li {
+        color: #960000;
+    }
+}
